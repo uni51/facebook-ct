@@ -24,7 +24,7 @@ class Post extends JsonResource
                     'body' => $this->body,
                 ]
             ],
-            'links'=> [
+            'links' => [
                 'self' => url('/posts/'.$this->id),
             ]
         ];
